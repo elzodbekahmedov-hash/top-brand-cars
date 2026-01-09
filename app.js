@@ -19,7 +19,7 @@ function request() {
       ui(res.data);
     })
     .catch(() => {
-      console.log("xatolik");
+      console.log("tizimda nozozlik bor");
     })
     .finally(() => {
       loader(false);
